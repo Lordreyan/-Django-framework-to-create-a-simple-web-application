@@ -1,6 +1,6 @@
 This program uses the Django framework to create a simple web application with a single API endpoint /hello/. When a POST request is made to this endpoint with a JSON payload containing a name field, it returns a JSON response with a greeting message. If the request is invalid or missing the name field, it returns an error response.
 
-To use this program, follow these steps:
+To use this program, follow these steps :
 
 Install Django by running pip install django in your Python environment.
 
