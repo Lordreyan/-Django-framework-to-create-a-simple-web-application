@@ -9,7 +9,7 @@ Create a new Django project by running django-admin startproject myproject in yo
 Move the provided Python code into a file named views.py within the project directory.
 
 Open the urls.py file within the project directory and replace its content with the following code:
-``python
+```python
 
 from django.urls import path
 from . import views
@@ -17,7 +17,7 @@ from . import views
 urlpatterns = [
     path('hello/', views.hello),
 ]
-``
+```
 Save the files and navigate to the project directory in your terminal or command prompt.
 
 Run the Django development server by executing the command python manage.py runserver.
@@ -26,7 +26,7 @@ Open a web browser and visit http://localhost:8000/hello/. You should see an err
 
 Use a tool like cURL or Postman to make a POST request to http://localhost:8000/hello/ with a JSON payload containing a name field. For example:
 
-``bash
+```bash
 
 POST http://localhost:8000/hello/
 
@@ -40,5 +40,5 @@ json
 {
   "message": "Hello, John!"
 }
-``
+```
 You can now upload the project to your GitHub repository by following the usual steps for creating a new repository and pushing your code to it. Make sure to include the Django project files and the requirements.txt file (generated using pip freeze) if applicable.
