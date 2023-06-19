@@ -41,4 +41,4 @@ json
   "message": "Hello, John!"
 }
 ```
-You can now upload the project to your GitHub repository by following the usual steps for creating a new repository and pushing your code to it. Make sure to include the Django project files and the requirements.txt file (generated using pip freeze) if applicable.
+You can now upload the project to your GitHub repository by following the usual steps for creating a new repository and pushing your code to it. Make sure to include the Django project files and the requirements.txt file (generated using pip freeze) if applicable. 
